@@ -17,7 +17,7 @@ zuul:
     item-service: /item-service/**
     user-service: /user-service/**
     order-service: /order-service/**
-  retryable: true #默认false,zuul不推荐重试,默认负载均衡
+  retryable: true 
 
 ribbon:
   ConnectTimeout: 1000
